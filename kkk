@@ -1,0 +1,50 @@
+function tel0p(getal1, getal2){
+    let opgeteld = getal1 + getal2
+    console.log(opgeteld);
+}
+tel0p(7, 16);
+function multiply(getal7,getal8){
+    let multiply = getal7 * getal8;
+    console.log(multiply);
+}
+multiply(7,16);
+function largerNum(arg1, arg2){
+    if (arg1 > arg2) {
+       return arg1;  
+    } if (arg1 < arg2){
+            return arg2;
+        }
+        return 0;
+    }
+let grootse = largerNum(7, 16);
+console.log(grootse)
+
+// opgave 1 
+function kubusInhoud(l1, h1, d1){
+    let inhoud = l1 * h1* d1;
+    return inhoud;
+    }
+    let kubus = kubusInhoud(10,5,6);
+    console.log(kubus);
+
+    // opgave 2 
+    function cylinderinhoud(diameter, h1){
+        let straal = diameter / 2
+        return straal * straal * Math.PI * h1;
+        }
+        let kubus1 = cylinderinhoud(10,5); 11,1
+        console.log(kubus1);
+    // opgave 3 
+    function driehoekinhoud(l3, h3){
+    let inhoud = Math.sqrt(Math.pow(l3,2) + Math.pow(h3,2));
+    return inhoud 
+    }
+    let driehoek = driehoekinhoud(10,5);
+    console.log(driehoek);
+    //opgave 4 
+    function getallen(c1, z1, k1, f1, j1, l1, b1){
+        let opgeteld = (c1 + z1 + k1 + f1 + j1 + l1 + b1)/7;
+        return opgeteld
+    }
+    let getal = getallen(1, 2, 3, 4, 5, 6, 7);
+    console.log(getal);
